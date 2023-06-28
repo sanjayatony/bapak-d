@@ -6,7 +6,7 @@ export default function Footer() {
 			<section className="[&>svg]:w-64 [&>svg]:h-64 [&>svg]:mx-auto group-hover:[&>svg]:rotate-6 transition duration-75 ease-in-out">
 				<HeadShot />
 			</section>
-			<section className="relative -mt-10">
+			<section className="relative -mt-6">
 				<div className="absolute inset-0 h-24 my-auto bg-fuchsia-200"></div>
 				<div className="z-10 relative transform -rotate-2">
 					<h2 className="font-bold text-3xl mb-4 font-space">Bapak D. Ev</h2>
