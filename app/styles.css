@@ -1,3 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+	.home {
+		h2 {
+			@apply font-space italic;
+		}
+	}
+	.black-shadow {
+		box-shadow: 2px 2px;
+	}
+	.stack {
+		box-shadow: 8px 8px #000;
+		@apply transition-shadow duration-75 ease-in-out;
+
+		&:hover {
+			box-shadow: none;
+		}
+	}
+	.stack-sm {
+		box-shadow: 8px 8px #000;
+		@apply transition-shadow duration-75 ease-in-out;
+
+		&:hover {
+			box-shadow: none;
+		}
+	}
+}

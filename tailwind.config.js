@@ -2,7 +2,13 @@
 module.exports = {
 	content: ["./app/**/*.{js,ts,jsx,tsx,mdx}", "./pages/**/*.{js,ts,jsx,tsx,mdx}", "./components/**/*.{js,ts,jsx,tsx,mdx}"],
 	theme: {
-		extend: {},
+		extend: {
+			fontFamily: {
+				space: ["'Space Mono'", "monospace"],
+				jet: ["'JetBrains Mono'", "monospace"],
+				serif: ["'Noto Serif'", "serif"],
+			},
+		},
 	},
-	plugins: [],
+	plugins: [require("@tailwindcss/typography")],
 };
